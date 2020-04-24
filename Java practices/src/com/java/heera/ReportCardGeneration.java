@@ -18,7 +18,7 @@ public class ReportCardGeneration {
 			System.out.println("enter mark for Subject-" + (i + 1) + ":\t");
 			marks[i] = sc.nextInt();
 		}
-
+		sc.close();
 		System.out.println("-------------------------------");
 		System.out.println("\t REPORT CARD");
 		System.out.println("Name :" + name);

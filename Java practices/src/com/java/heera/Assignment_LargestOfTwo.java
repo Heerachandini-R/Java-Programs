@@ -9,7 +9,7 @@ public class Assignment_LargestOfTwo {
 		Scanner scan =new Scanner(System.in);
 		int num1=scan.nextInt();
 		int num2=scan.nextInt();
-		
+		scan.close();
 		if(num1>num2)
 			System.out.println("Number1  is bigger than number2");
 		else
